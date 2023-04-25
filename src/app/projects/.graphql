@@ -1,0 +1,14 @@
+query {
+  user(login: "nom_utilisateur") {
+    repositories(first: 10) {
+      nodes {
+        name
+        description
+        language
+        forkCount
+        stargazerCount
+        url
+      }
+    }
+  }
+}
