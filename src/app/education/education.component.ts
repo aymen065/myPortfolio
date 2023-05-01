@@ -24,7 +24,7 @@ export class EducationComponent implements OnInit {
       className2: ""
     },
     {
-      heading: "Bachelor's degree",
+      heading: "High school diploma",
       duration: "2019",
       subtitle: "Secondary Public School , jedaida-mannouba",
       content: "Successfully completed in 2019 .\n" +
